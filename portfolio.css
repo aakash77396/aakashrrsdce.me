@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(235, 230, 77);
+}
+h1{
+    text-align:center;
+    margin: 2%;
+    font-family:'Times New Roman', Times, serif;
+}
+.passion{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: underline;
+    font-size: 20px;
+}
+table{
+    background-color:#ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+}
+td,th{
+    border: 1px solid black;
+    padding: 5px;
+}
+.intrest{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:cursive;
+    text-decoration: none;
+}
+.youtube{
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(255,234,0);
+    color: white;
+    padding: 10px;
+    margin-left: 31%;
+}
+.instagram{
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  background-color: rgb(255, 234, 0);
+  color: white;
+}
+.linkdin{
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(255, 234, 0);
+    color: white;
+  }

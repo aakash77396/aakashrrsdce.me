@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(235, 230, 77);
+    background-color: rgb(204, 202, 255);
 }
 h1{
     text-align:center;
@@ -34,7 +34,7 @@ td,th{
 .youtube{
     text-align: center;
     text-decoration: none;
-    background-color: rgb(255,234,0);
+    background-color: rgb(255,0,0);
     color: white;
     padding: 10px;
     margin-left: 31%;

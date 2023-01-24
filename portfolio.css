@@ -1,28 +1,33 @@
 body {
-    background-color: rgb(204, 204, 255);
+    background-color: rgb(2,48,71);
 }
 h1{
     text-align:center;
     margin: 2%;
     font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 174, 0);
+    text-shadow: black 2px 2px 2px;
 }
 .passion{
     text-align: center;
+    color:#00ffff7f;
 }
 p{
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     text-decoration: underline;
     font-size: 20px;
+    color: rgb(142,202, 230);
 }
 table{
-    background-color:#ffffff;
+    border-collapse: collapse;
+    background-color:#f7ff06ac;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid black;
+    border: 2px solid black;
 }
 td,th{
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 5px;
 }
 .intrest{
@@ -33,9 +38,9 @@ td,th{
 }
 .youtube{
     text-align: center;
-    text-decoration: none;
-    background-color: rgb(255,0,0);
     color: white;
+    text-decoration:none;
+    background-color: rgba(255, 234, 0, 0.566);
     padding: 10px;
     margin-left: 31%;
 }
@@ -43,26 +48,25 @@ td,th{
   text-align: center;
   padding: 10px;
   text-decoration: none;
-  background-color: rgb(153, 153, 255);
+  background-color: rgba(255, 234, 0, 0.566);
   color: white;
 }
 .linkdin{
     text-align: center;
     padding: 10px;
     text-decoration: none;
-    background-color: rgb(255, 153, 0);
+    background-color: rgba(255, 234, 0, 0.566);
     color: white;
   }
-.youtu{
-    color:white;
-    text-decoration:none;
-    }
-.insta{
-    color:white;
-    text-decoration:none;
-    }
-.linkd{
-    color:white;
-    text-decoration:none;
-    }
+  button:hover{
+    background-color: rgb(0, 255, 234);
+  }
+  th,.t1{
+    background-color: rgba(255, 106, 0, 0.662);
+  }
 
+  img{
+    border-radius: 20px;
+    margin-left: 45%;
+  }
+  

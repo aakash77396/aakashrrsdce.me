@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-box</title>
+    <style>
+        * {
+            margin: 0px auto;
+            padding: 0px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            margin-left: 7.55%;
+        }
+
+        .main {
+            height: 350px;
+            width: 300px;
+            border: 2px solid rgb(103, 99, 99);
+            justify-content: space-around;
+            margin: 10px 10px;
+        }
+
+        .main:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+            transition: 0.2s;
+        }
+
+        .nav:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+            transition: 0.2s;
+        }
+
+        .box {
+            background: linear-gradient(to right, rgb(241, 34, 34), rgb(255, 85, 0));
+            height: 80px;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        h1 {
+            margin-top: 17px;
+        }
+
+        .p {
+            text-align: left;
+            font-size: 15px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 10px;
+        }
+
+        .read-more {
+            background: linear-gradient(to right, rgb(241, 34, 34), rgb(255, 85, 0));
+            height: 15px;
+            width: 80%;
+            text-align: center;
+            padding: 10px;
+            margin-top: 73px;
+            cursor: pointer;
+            color: white;
+            display: block;
+        }
+
+        .heading {
+            text-align: center;
+            margin-top: -5px;
+            font-size: 30px;
+            background: linear-gradient(to right, rgb(241, 34, 34), rgb(255, 85, 0));
+        }
+
+        .nav {
+            height: 100px;
+            width: 82%;
+            background: linear-gradient(to right, rgb(241, 34, 34), rgb(255, 85, 0));
+            border: 2px solid rgb(255, 0, 0);
+            margin-top: 10px;
+            margin-left: 8%;
+            padding: 10px;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>CSS Responsive Flexbox Cards</h1>
+    </div>
+    <div class="container">
+        <div class="main">
+            <div class="box">
+                <h1>React</h1>
+            </div>
+            <div class="p">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis alias qui asperiores? Suscipit labore
+                eveniet similique veritatis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis alias qui
+                asperiores? Suscipit labore eveniet similique veritatis?
+            </div>
+            <div class="read-more">Read more</div>
+        </div>
+        <div class="main">
+            <div class="box">
+                <h1>Vue</h1>
+            </div>
+            <div class="p">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis alias qui asperiores? Suscipit labore
+                eveniet similique veritatis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis alias qui
+                asperiores? Suscipit labore eveniet similique veritatis?
+            </div>
+            <div class="read-more">Read more</div>
+        </div>
+        <div class="main">
+            <div class="box">
+                <h1>Angular</h1>
+            </div>
+            <div class="p">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis alias qui asperiores? Suscipit labore
+                eveniet similique veritatis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis alias qui
+                asperiores? Suscipit labore eveniet similique veritatis?
+            </div>
+            <div class="read-more">Read more</div>
+        </div>
+        <div class="main">
+            <div class="box">
+                <h1>JQuery</h1>
+            </div>
+            <div class="p">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis alias qui asperiores? Suscipit labore
+                eveniet similique veritatis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis alias qui
+                asperiores? Suscipit labore eveniet similique veritatis?
+                <div class="read-more">Read more</div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="nav">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad quis earum debitis reiciendis sequi dignissimos
+            voluptate, labore repellat in mollitia laboriosam sed neque quisquam distinctio facere exercitationem
+            obcaecati consectetur libero minima harum eum veritatis, eligendi totam. Porro dolorum ipsam cumque
+            delectus, beatae vitae molestiae officia est quas ipsa aperiam aliquam cupiditate iste ullam unde neque
+            culpa saepe eius! Nesciunt dignissimos expedita placeat eos quisquam labore id totam nemo eius laboriosam,
+            doloremque dolor nam iusto minus. Consectetur ut officiis non error fuga quod labore beatae, neque ab quas
+            tempora molestiae! Provident corporis ipsa vero voluptatum, non placeat amet voluptas optio fugiat.
+        </div>
+        <div class="nav">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero odio ipsam sed magni nisi quisquam quidem
+            eligendi modi sequi dolorum quia obcaecati nobis maxime nihil exercitationem fugiat eos neque quod hic,
+            dignissimos autem? Quidem recusandae nihil dolore illo qui amet totam molestias debitis animi eum? Modi
+            ullam tenetur praesentium ad dolore minus fuga. Ducimus magni delectus repellendus sunt quisquam
+            consequatur, molestias velit, in iure deleniti amet facilis fugiat earum maxime dolores odio unde, labore
+            cupiditate ipsam quae debitis vero. Autem dolorem quasi ratione explicabo repellat unde neque eveniet
+            impedit, repellendus consequatur non temporibus sapiente maiores nemo distinctio voluptates nam iure!
+        </div>
+    </div>
+</body>
+
+</html>

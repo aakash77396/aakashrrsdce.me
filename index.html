@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aakash cse</title>
+    <title>flex-box</title>
     <style>
         * {
             margin: 0px auto;
@@ -34,7 +34,7 @@
             transition: 0.2s;
         }
 
-        .nav:hover{
+        .nav:hover {
             transform: scale(1.05);
             box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
             transition: 0.2s;
@@ -93,52 +93,80 @@
             margin-bottom: 15px;
             /* overflow: hidden; */
         }
-        .navbar{
+
+        .navbar {
             margin-top: 0px;
         }
-        
-        .container-2{
+
+        .container-2 {
             display: flex;
             flex-wrap: wrap;
             /* background-color: gainsboro; */
         }
+
         /* .link{
             border: 2px solid black;
             
             
         } */
-        .li{
+        .li {
             list-style: none;
             margin: 10PX;
             font-size: 25px;
         }
-        a{
+
+        .li-a {
             text-decoration: none;
             color: gray;
         }
-        .web_dev{
-            margin-top: 5px;
-            text-align: center;
-            color: gray;
-            font-size: 25px;
+        .li-a:hover{
+            color: tomato;
+        }
 
+        .web_dev {
+            margin-top: 5px;
+            text-align: center;
+            color: gray;
+            font-size: 25px;
         }
-        .gmail{
+
+        .web_dev:hover{
+            color: tomato;
+        }
+
+        .gmail {
             margin-top: 5px;
             color: gray;
             font-size: 25px;
         }
-        .link-h1{
+        .gmail:hover{
+            color: tomato;
+        }
+
+        .link-h1 {
             text-align: center;
         }
-        .aakash-img{
+
+        .link-h1:hover{
+            text-decoration: underline;
+            text-decoration-color: tomato;
+        }
+
+        .aakash-img {
             width: 150px;
             height: 150px;
             margin-left: 20px;
-            margin-top: -15px;
+            margin-top: -13px;
             border-radius: 50%;
         }
-        .copyright{
+
+        .aakash-img:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+            transition: 0.2s; 
+        }
+
+        .copyright {
             text-align: center;
             font-size: 20px;
             margin: 15px;
@@ -220,39 +248,57 @@
             cupiditate ipsam quae debitis vero. Autem dolorem quasi ratione explicabo repellat unde neque eveniet
             impedit, repellendus consequatur non temporibus sapiente maiores nemo distinctio voluptates nam iure!
         </div>
+        <div class="nav">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero odio ipsam sed magni nisi quisquam quidem
+            eligendi modi sequi dolorum quia obcaecati nobis maxime nihil exercitationem fugiat eos neque quod hic,
+            dignissimos autem? Quidem recusandae nihil dolore illo qui amet totam molestias debitis animi eum? Modi
+            ullam tenetur praesentium ad dolore minus fuga. Ducimus magni delectus repellendus sunt quisquam
+            consequatur, molestias velit, in iure deleniti amet facilis fugiat earum maxime dolores odio unde, labore
+            cupiditate ipsam quae debitis vero. Autem dolorem quasi ratione explicabo repellat unde neque eveniet
+            impedit, repellendus consequatur non temporibus sapiente maiores nemo distinctio voluptates nam iure!
+        </div>
+        <div class="nav">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero odio ipsam sed magni nisi quisquam quidem
+            eligendi modi sequi dolorum quia obcaecati nobis maxime nihil exercitationem fugiat eos neque quod hic,
+            dignissimos autem? Quidem recusandae nihil dolore illo qui amet totam molestias debitis animi eum? Modi
+            ullam tenetur praesentium ad dolore minus fuga. Ducimus magni delectus repellendus sunt quisquam
+            consequatur, molestias velit, in iure deleniti amet facilis fugiat earum maxime dolores odio unde, labore
+            cupiditate ipsam quae debitis vero. Autem dolorem quasi ratione explicabo repellat unde neque eveniet
+            impedit, repellendus consequatur non temporibus sapiente maiores nemo distinctio voluptates nam iure!
+        </div>
     </div>
     <div class="container-2">
         <div class="link">
             <div><img class="aakash-img" src="aakash.jpg" alt="photo"></div>
-            <h1 class="link-h1">Aakash Kumar</h1>
+            <h1 class="link-h1" id="name">Aakash Kumar</h1>
             <div class="web_dev"> Web developer</div>
         </div>
         <div class="link">
             <h1 class="link-h1">HELPFUL LINK</h1>
             <div>
                 <ul class="li">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Course</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a class="li-a" href="#">Home</a></li>
+                    <li><a class="li-a" href="#">Course</a></li>
+                    <li><a class="li-a" href="#">Privacy Policy</a></li>
+                    <li><a class="li-a" href="#">Terms & Conditions</a></li>
                 </ul>
             </div>
         </div>
         <div class="link">
             <h1 class="link-h1">GET IN TOUCH</h1>
-           <div class="gmail">aakashrrsdce@gmail.com</div>
+            <div class="gmail">aakashrrsdce@gmail.com</div>
         </div>
         <div class="link">
             <h1 class="link-h1">CONNECT WITH US</h1>
-           <div>
-            <ul class="li">
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Youtube</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Linkedin</a></li>
-            </ul>
-           </div>
+            <div>
+                <ul class="li">
+                    <li><a class="li-a" href="#">Facebook</a></li>
+                    <li><a class="li-a" href="#">Twitter</a></li>
+                    <li><a class="li-a" href="#">Youtube</a></li>
+                    <li><a class="li-a" href="#">Instagram</a></li>
+                    <li><a class="li-a" href="#">Linkedin</a></li>
+                </ul>
+            </div>
         </div>
     </div>
     <nav class="nav-2">

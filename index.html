@@ -58,6 +58,8 @@
             font-size: 15px;
             font-family: Georgia, 'Times New Roman', Times, serif;
             padding: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            line-height: 20px;
         }
 
         .read-more {
@@ -121,7 +123,8 @@
             text-decoration: none;
             color: gray;
         }
-        .li-a:hover{
+
+        .li-a:hover {
             color: tomato;
         }
 
@@ -132,7 +135,7 @@
             font-size: 25px;
         }
 
-        .web_dev:hover{
+        .web_dev:hover {
             color: tomato;
         }
 
@@ -141,7 +144,8 @@
             color: gray;
             font-size: 25px;
         }
-        .gmail:hover{
+
+        .gmail:hover {
             color: tomato;
         }
 
@@ -149,7 +153,7 @@
             text-align: center;
         }
 
-        .link-h1:hover{
+        .link-h1:hover {
             text-decoration: underline;
             text-decoration-color: tomato;
         }
@@ -162,10 +166,10 @@
             border-radius: 50%;
         }
 
-        .aakash-img:hover{
+        .aakash-img:hover {
             transform: scale(1.05);
             box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-            transition: 0.2s; 
+            transition: 0.2s;
         }
 
         .copyright {
@@ -178,15 +182,18 @@
             margin-bottom: 10px;
             width: 100%;
         }
-        .heading{
+
+        .heading {
             display: flex;
             flex-wrap: wrap;
         }
-        .nav-bar{
+
+        .nav-bar {
             display: flex;
             flex-wrap: wrap;
         }
-        .nav-name{
+
+        .nav-name {
             padding: 5px;
             margin: 5px 10px;
             margin-top: 20px;
@@ -195,26 +202,47 @@
             list-style: none;
             cursor: pointer;
         }
-        .nav-a:hover{
+
+        .nav-a:hover {
             text-decoration: underline;
             text-decoration-color: white;
         }
-        .nav-h{
+
+        .nav-h {
             font-size: 40px;
             margin-top: 17px;
             color: #e6ecff;
         }
-        .nav-h:hover{
+
+        .nav-h:hover {
             transform: scale(1.05);
             /* box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25); */
             transition: 0.2s;
         }
-        .nav-a{
+
+        .nav-a {
             text-decoration: none;
             color: white;
             font-family: 'Rubik'
         }
-
+        #html{
+            margin-top: 30px;
+        }
+        #css{
+            margin-top: 50px;
+        }
+        #php{
+            margin-top: 59px;
+        }
+        #cplus{
+            margin-top: 40px;
+        }
+        #python{
+            margin-top: 41px;
+        }
+        #java{
+            margin-top: 22px;
+        }
     </style>
 </head>
 
@@ -223,60 +251,105 @@
         <h1 class="nav-h">Aakash Kumar</h1>
         <div class="nav-name-container">
             <ul class="nav-bar">
-            <li class="nav-name"><a href="#" target="_parent" class="nav-a">Home</a></li>
-            <li class="nav-name"><a href="#" target="_parent" class="nav-a">Services</a></li>
-            <li class="nav-name"><a href="#" target="_parent" class="nav-a">About us</a></li>
-            <li class="nav-name"><a href="portfolio.html" target="_parent" class="nav-a">Portfolio</a></li>
-            <li class="nav-name"><a href="#" target="_parent" class="nav-a">Contact us</a></li>
-            <li class="nav-name"><a href="#" target="_parent" class="nav-a">Gallery</a></li>
-        </ul>
+                <li class="nav-name"><a href="#" target="_parent" class="nav-a">Home</a></li>
+                <li class="nav-name"><a href="#"  class="nav-a"target="_blank">Services</a></li>
+                <li class="nav-name"><a href="#"  class="nav-a"target="_blank">About us</a></li>
+                <li class="nav-name"><a href="portfolio.html"  class="nav-a"target="_blank">Portfolio</a></li>
+                <li class="nav-name"><a href="#"  class="nav-a"target="_blank">Contact us</a></li>
+                <li class="nav-name"><a href="priti"  class="nav-a"target="_blank">Gallery</a></li>
+            </ul>
         </div>
     </div>
     <div class="container">
         <div class="main">
             <div class="box">
-                <h1>React</h1>
+                <h1>HTML</h1>
             </div>
             <div class="p">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis alias qui asperiores? Suscipit labore
-                eveniet similique veritatis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis alias qui
-                asperiores? Suscipit labore eveniet similique veritatis?
+                HTML is the standard markup language for documents designed to be displayed in a web browser. It can be
+                assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as
+                JavaScript. HTML. (HyperText Markup Language)
             </div>
-            <div><a class="read-more" href="contact_form.html">Read more</a></div>
+            <div><a class="read-more" href="#" id="html">Read more</a></div>
         </div>
         <div class="main">
             <div class="box">
-                <h1>Vue</h1>
+                <h1>CSS</h1>
             </div>
             <div class="p">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis alias qui asperiores? Suscipit labore
-                eveniet similique veritatis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis alias qui
-                asperiores? Suscipit labore eveniet similique veritatis?
+                CSS is the acronym for Cascade Styling Sheets. In short, it is a sheet style language, which is a type
+                of language you can use to describe the presentation of a markup language in this case, to describe
+                the movements of HTML
             </div>
-            <div class="read-more">Read more</div>
+            <div><a class="read-more" href="#" id="css">Read more</a></div>
         </div>
         <div class="main">
             <div class="box">
-                <h1>Angular</h1>
+                <h1>JAVA-SCRIPT</h1>
             </div>
             <div class="p">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis alias qui asperiores? Suscipit labore
-                eveniet similique veritatis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis alias qui
-                asperiores? Suscipit labore eveniet similique veritatis?
+                JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of
+                the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client
+                side for webpage behavior
             </div>
-            <div class="read-more">Read more</div>
+            <div><a class="read-more" href="#" id="javascript">Read more</a></div>
         </div>
         <div class="main">
             <div class="box">
-                <h1>JQuery</h1>
+                <h1>PHP</h1>
             </div>
             <div class="p">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis alias qui asperiores? Suscipit labore
-                eveniet similique veritatis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis alias qui
-                asperiores? Suscipit labore eveniet similique veritatis?
-                <div class="read-more">Read more</div>
+                PHP(short for Hypertext PreProcessor) is the most widely used open source and general purpose server
+                side scripting language used mainly in web development to create dynamic websites and applications.
+                <div><a class="read-more" href="#" id="php">Read more</a></div>
             </div>
         </div>
+        <div class="main">
+            <div class="box">
+                <h1>C</h1>
+            </div>
+            <div class="p">
+                C is a general-purpose computer programming language. It was created in the 1970s by Dennis Ritchie, and
+                remains very widely used and influential. By design, C's features cleanly reflect the capabilities of
+                the targeted CPUs.
+            </div>
+            <div><a class="read-more" href="#" id="c">Read more</a></div>
+        </div>
+        <div class="main">
+            <div class="box">
+                <h1>C++</h1>
+            </div>
+            <div class="p">
+                C++ is a cross-platform language that can be used to create high-performance applications. C++ was
+                developed by Bjarne Stroustrup, as an extension to the C language. C++ gives programmers a high level of
+                control over system resources and memory.
+                <div><a class="read-more" href="#" id="cplus">Read more</a></div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="box">
+                <h1>PYTHON</h1>
+            </div>
+            <div class="p">
+                Python is a computer programming language often used to build websites and software, automate tasks, and
+                conduct data analysis. Python is a general-purpose language, meaning it can be used to create a variety
+                of different programs and isn't specialized for any specific problems.
+                <div><a class="read-more" href="#" id="python">Read more</a></div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="box">
+                <h1>JAVA</h1>
+            </div>
+            <div class="p">
+                Java is the official language for Android mobile app development. In fact, the Android operating system
+                itself is written in Java. Even though Kotlin has recently become an alternative to using Java for
+                Android development, Kotlin still uses the Java Virtual Machine and can interact with Java code.
+                <div><a class="read-more" href="#" id="java">Read more</a></div>
+            </div>
+        </div>
+
+
     </div>
     <div class="navbar">
         <div class="nav">
@@ -343,9 +416,9 @@
                 <ul class="li">
                     <li><a class="li-a" href="#">Facebook</a></li>
                     <li><a class="li-a" href="#">Twitter</a></li>
-                    <li><a class="li-a" href="#">Youtube</a></li>
-                    <li><a class="li-a" href="#">Instagram</a></li>
-                    <li><a class="li-a" href="#">Linkedin</a></li>
+                    <li><a class="li-a" href="https://www.youtube.com/@TechURLOfficial" target="_blank">Youtube</a></li>
+                    <li><a class="li-a" href="https://www.instagram.com/er_aakashkumar/" target="_blank">Instagram</a></li>
+                    <li><a class="li-a" href="https://www.linkedin.com/in/aakash-kumar-2b8895247/" target="_blank">Linkedin</a></li>
                 </ul>
             </div>
         </div>

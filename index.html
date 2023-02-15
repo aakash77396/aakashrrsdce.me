@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flex-box</title>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
     <style>
         * {
             margin: 0px auto;
@@ -72,6 +73,7 @@
             display: block;
             margin-left: 20px;
             margin-top: 50px;
+            text-decoration: none;
         }
 
         .heading {
@@ -176,13 +178,57 @@
             margin-bottom: 10px;
             width: 100%;
         }
+        .heading{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .nav-bar{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .nav-name{
+            padding: 5px;
+            margin: 5px 10px;
+            margin-top: 20px;
+            text-align: center;
+            list-style: none;
+            cursor: pointer;
+        }
+        .nav-a:hover{
+            text-decoration: underline;
+            text-decoration-color: white;
+        }
+        .nav-h{
+            font-size: 40px;
+            margin-top: 17px;
+            color: #e6ecff;
+        }
+        .nav-h:hover{
+            transform: scale(1.05);
+            /* box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25); */
+            transition: 0.2s;
+        }
+        .nav-a{
+            text-decoration: none;
+            color: white;
+            font-family: 'Rubik'
+        }
 
     </style>
 </head>
 
 <body>
     <div class="heading">
-        <h1>CSS Responsive Flexbox Cards</h1>
+        <h1 class="nav-h">Aakash Kumar</h1>
+        <div class="nav-name-container">
+            <ul class="nav-bar">
+            <li class="nav-name"><a href="#" target="_parent" class="nav-a">Home</a></li>
+            <li class="nav-name"><a href="#" target="_parent" class="nav-a">Services</a></li>
+            <li class="nav-name"><a href="#" target="_parent" class="nav-a">About us</a></li>
+            <li class="nav-name"><a href="#" target="_parent" class="nav-a">Portfolio</a></li>
+            <li class="nav-name"><a href="#" target="_parent" class="nav-a">Contact us</a></li>
+        </ul>
+        </div>
     </div>
     <div class="container">
         <div class="main">
@@ -194,7 +240,7 @@
                 eveniet similique veritatis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis alias qui
                 asperiores? Suscipit labore eveniet similique veritatis?
             </div>
-            <div class="read-more">Read more</div>
+            <div><a class="read-more" href="contact_form.html">Read more</a></div>
         </div>
         <div class="main">
             <div class="box">

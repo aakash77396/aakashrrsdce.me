@@ -7,30 +7,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML</title>
     <style>
-        .html {
-            text-align: center;
+        body {
+            /* background-color: azure; */
+            margin: 0px 0px;
+            padding: 0px 0px;
         }
 
-        li {
+        header {
+            background-color: blueviolet;
+            margin: 0px;
+            padding: 0px;
+            height: 80px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        header h1 {
+            text-align: center;
+            color: rgb(1, 1, 1);
+            padding: 15px 15px;
+            margin: auto;
+        }
+
+        .container1 li {
+            padding: 5px 5px;
             font-size: 20px;
             line-height: 40px;
-            background-color: rgb(162, 198, 209);
             list-style-position: inside;
+            color: chocolate;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container2 {
+            align-items: center;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+        }
+        .container2 h2{
+            color: tomato;
+        }
+
+        .container3 li {
+            padding: 5px 5px;
+            font-size: 20px;
+            line-height: 40px;
+            list-style-position: inside;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container4{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 12px;
+        }
+        .container4 p{
+            font-size: 15px;
+        }
+        .notes{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            background-color: lightyellow;
+            padding: 10px 10px;
+            margin: 5px 5px;
+        }
+
+        .attribute {
+            color: tomato;
         }
     </style>
 </head>
 
 <body>
-    <div >
-        <div>
-            <h1 class="html">HTML</h1>
+    <header>
+        <h1 class="html">HTML</h1>
+    </header>
+
+    <div id="page">
+        <ul class="container1">
+            <li>HTML is HyperText Markup Language</li>
+            <li>With HTML you can create your own Website. </li>
+            <li>HTML is easy to learn - You will enjoy it!</li>
+        </ul>
+        <div class="container2">
+            <h2>A Simple HTML Document</h2>
+            <img src="basic html.png" alt="">
         </div>
-        <div>
-            <ul class="conatainer">
-                <li>HTML is HyperText Markup Language</li>
-                <li>With HTML you can create your own Website. </li>
-                <li>HTML is easy to learn - You will enjoy it!</li>
-            </ul>
+
+        <ul class="container3">
+            <h3>Example Explained</h3>
+
+            <li>The <code class="attribute">&lt;!DOCTYPE html&gt;</code> declaration defines
+                that this document is an HTML5 document</li>
+            <li>The <code class="attribute">&lt;html&gt;</code> element is the root element of an HTML page</li>
+            <li>The <code class="attribute">&lt;head&gt;</code> element contains meta information about the HTML
+                page</li>
+            <li>The <code class="attribute">&lt;title&gt;</code> element specifies a title for the HTML page (which
+                is shown in the
+                browser's title bar or in the page's tab)</li>
+            <li>The <code class="attribute">&lt;body&gt;</code> element defines the document's body, and is a
+                container for all the
+                visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+            <li>The <code class="attribute">&lt;h1&gt;</code> element defines a large heading</li>
+            <li>The <code class="attribute">&lt;p&gt;</code> element defines a paragraph</li>
+        </ul>
+        <div class="container4">
+            <h1>HTML Page Structure</h1>
+            <p>Below is a visualization of an HTML page structure:</p>
+            <img src="html body.png" alt="">
+        </div>
+        <div class="notes">
+            <p><strong>Notes:- </strong>The content inside the <code class="attribute">&lt;body&gt;</code> section will be displayed in a browser. The content inside the <code class="attribute">&lt;title&gt;</code> element will be shown in the browser's title bar or in the page's tab.</p>
         </div>
     </div>
 </body>

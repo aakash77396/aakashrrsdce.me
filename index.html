@@ -423,13 +423,13 @@
     </div>
 
     <div class="section5">
-            <form action="#" method="get">
+            <form method="post" action="" name="contactform">
                 <div class="message">
                     <p>Name*<input type="text" name="name" id="name" class="fullname" required></p>
                     <p>Email* <input type="email" name="email" id="email" class="email" required></p>
                     <p>Mobile* <input type="text" name="mobile" id="mobile" class="mobile" required></p>
                     <p>Feedback* <input type="text" name="feedback" id="feedback" class="feedback" required></p>
-                <button>SUBMIT</button>
+                <button type="submit" >SUBMIT</button>
             </form>
         </div>
     <div class="container-2">
@@ -469,9 +469,21 @@
     <nav class="nav-2">
         <div class="copyright">
             Copyright &#169 2023           
-        </div>
-        
+        </div>    
     </nav>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxMni9cI3ItN-EVMGdDVL1ZrLw31dHEa4VJeE2vHdCsgBVum8IN75B5Xn9sRHGmwBgCtg/exec'
+        const form = document.forms['contactform']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("Thank you! your form is submitted successfully." ))
+            .then(() => {  window.location.reload(); })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
 </body>
 
 </html>

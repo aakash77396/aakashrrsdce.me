@@ -7,9 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>aakashrrsdce</title>
     <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Merriweather:wght@700&family=Roboto&family=Rubik&family=Sriracha&display=swap"
+        rel="stylesheet">
     <style>
         * {
-            margin: 0px auto;
+            margin: auto;
             padding: 0px;
             user-zoom: fixed;
         }
@@ -313,6 +318,63 @@
             margin: 10px;
             padding: 10px;
         }
+        #nav_btn {
+            background: rgb(136 18 200 / 56%);
+            margin: 0;
+            width: 100%;
+            margin-top: 20px;
+
+        }
+
+        .nav_btn {
+            text-decoration: none;
+            display: none;
+        }
+
+        .nav-h {
+            padding: 10px;
+        }
+        .nav-a {
+            font-family: 'Inter', sans-serif;
+            font-family: 'Merriweather', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Rubik', sans-serif;
+            font-family: 'Sriracha', cursive;
+        }
+
+        @media screen and (max-width:784px) {
+            .nav-name-container {
+                display: none;
+
+            }
+
+            .nav_btn {
+                text-decoration: none;
+                display: block;
+            }
+
+            .nav-bar {
+                display: block;
+                margin: auto;
+            }
+
+            .nav-name {
+                padding: 8px;
+                margin: auto;
+                box-sizing: border-box;
+                background: lightseagreen;
+                border-bottom: 1px solid gray;
+            }
+
+            .heading {
+                display: block;
+            }
+
+            #nav_name_java1 {
+                margin-top: 10px;
+            }
+
+        }
     </style>
 </head>
 
@@ -329,6 +391,8 @@
                 
             </ul>
         </div>
+        <button type="button" class="nav_btn" id="nav_btn" onclick="nav()"><img id="nav_img" src="icons8-menu-48.png"
+                alt=""></button>
     </div>
     <div class="container">
         <div class="main">
@@ -483,6 +547,10 @@
             .then(() => {  window.location.reload(); })
             .catch(error => console.error('Error!', error.message))
         })
+
+        function nav() {
+            document.getElementById("nav_container1").style.display = "block"
+        }
       </script>
 </body>
 

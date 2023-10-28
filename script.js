@@ -13,7 +13,7 @@ function nav() {
     document.getElementById("nav_container1").style.display = "block"
 }
 
-setTimeout(alertFun,2000);
+setTimeout(alertFun,5000);
 function alertFun(){
     alert("Welcome to this site");
 }

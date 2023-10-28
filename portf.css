@@ -67,6 +67,12 @@
     margin-left: 5px;
 }
 
+.view-work p a{
+    text-decoration: none;
+    color: white;
+    padding:10px 10px;
+}
+
 .name div {
     margin-left: 170px;
     margin-top: 15px;

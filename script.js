@@ -13,10 +13,13 @@ function nav() {
     document.getElementById("nav_container1").style.display = "block"
 }
 
+// ........................................
 setTimeout(alertFun,5000);
 function alertFun(){
     alert("Welcome to this site");
 }
+
+// ........................................
 
 let darkColor = document.getElementById("dark-color");
 let whiteColor = document.getElementById("white-color");
@@ -48,3 +51,16 @@ let inpMessege = document.getElementsByClassName("inpMessege");
             }
         }
 
+// .........................................
+
+
+ window.addEventListener("scroll", function () {
+            let heading = document.getElementById("nav-box-sticky");
+            if (window.pageYOffset >= 40) {
+                heading.classList.add("sticky");
+            }else{
+                heading.classList.remove("sticky");
+            }
+        });
+
+// .................................................

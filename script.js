@@ -17,3 +17,34 @@ setTimeout(alertFun,5000);
 function alertFun(){
     alert("Welcome to this site");
 }
+
+let darkColor = document.getElementById("dark-color");
+let whiteColor = document.getElementById("white-color");
+let container = document.getElementById("firstContainer");
+let contMain = document.getElementsByClassName("main");
+let inpMessege = document.getElementsByClassName("inpMessege");
+
+        function colorChange(color){
+            if(color == "#000000"){
+                document.body.style.backgroundColor = "#000000";
+                container.style.backgroundColor ="#000000";
+                for(x of contMain){
+                    x.style.backgroundColor ="#000000";
+                    x.style.color ="#ffffff";
+                }
+                for(y of inpMessege){
+                    y.style.backgroundColor = "#faf8f8a1";
+                }
+            }else if(color == "#ffffff"){
+                document.body.style.backgroundColor = "#cacadb";
+                container.style.backgroundColor ="#f8f8ff";
+                for(x of contMain){
+                    x.style.backgroundColor ="#ffffff";
+                    x.style.color ="#000000";
+                }
+                for(y of inpMessege){
+                    y.style.backgroundColor = "#ffffff";
+                }
+            }
+        }
+

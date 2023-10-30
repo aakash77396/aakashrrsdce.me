@@ -382,3 +382,42 @@ button {
     }
 
 }
+
+
+.color-change-box{
+            text-align: right;
+            margin-right: 5px;
+        }
+
+        .color-change-box span{
+            display: inline-block;
+            position: relative;
+        }
+        .color-change-box label{
+            position: relative;
+            font-size: 10px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 5px 5px;
+            top: 23px;
+            font-weight: bold;
+        }
+
+.color-box{
+            width: 10px;
+            height: 10px;
+            border: 1px solid #222;
+            top: 25px;
+            cursor: pointer;
+        }
+        .white{
+            color: white;
+        }
+        .dark{
+            color: black;
+        }
+        .white-box{
+            background-color: #ffffff;
+        }
+        .dark-box{
+            background-color: #000000;
+        }

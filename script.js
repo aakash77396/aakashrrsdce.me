@@ -56,7 +56,7 @@ let inpMessege = document.getElementsByClassName("inpMessege");
 
  window.addEventListener("scroll", function () {
             let heading = document.getElementById("nav-box-sticky");
-            if (window.pageYOffset >= 40) {
+            if (window.pageYOffset >= 40 && window.innerWidth >= 784) {
                 heading.classList.add("sticky");
             }else{
                 heading.classList.remove("sticky");

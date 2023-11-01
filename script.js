@@ -8,10 +8,10 @@ form.addEventListener('submit', e => {
         .then(() => { window.location.reload(); })
         .catch(error => console.error('Error!', error.message))
 })
-
-function nav() {
-    document.getElementById("nav_container1").style.display = "block"
-}
+ // .........................................................................
+// function nav() {
+//     document.getElementById("nav_container1").style.display = "block"
+// }
 
 // ........................................
 setTimeout(alertFun,5000);
@@ -64,3 +64,27 @@ let inpMessege = document.getElementsByClassName("inpMessege");
         });
 
 // .................................................
+//  to show navBar
+flag = 0;
+        function controller(x){
+            flag = flag + x;
+            menuShow(flag);
+        }
+
+        menuShow(flag);
+
+        function menuShow(num){
+            let nav = document.getElementById("nav_container1");
+            if(num==1){
+                nav.style.display = "block";
+                console.log("ok1");
+            }else if(num==2){
+                console.log("ok2");
+                nav.style.display ="none";
+                flag = 0;
+                e = 0;
+            }
+
+        }
+
+// ..........................................................

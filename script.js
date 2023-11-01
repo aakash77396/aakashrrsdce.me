@@ -77,9 +77,9 @@ flag = 0;
             let nav = document.getElementById("nav_container1");
             if(num==1){
                 nav.style.display = "block";
-                console.log("ok1");
+                // console.log("ok1");
             }else if(num==2){
-                console.log("ok2");
+                // console.log("ok2");
                 nav.style.display ="none";
                 flag = 0;
                 e = 0;

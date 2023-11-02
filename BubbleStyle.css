@@ -102,7 +102,7 @@ body{
 }
 
 #gOverHighScore{
-    color: rgba(51, 255, 0, 0.847);
+    color: rgba(67, 196, 35, 0.847);
     display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
@@ -112,6 +112,10 @@ body{
     
 }
 
+#gOverHighScoreColor{
+    color: rgb(42, 143, 40);
+}
+
 #gOver{
     color: rgba(255, 0, 0, 0.847);
     margin: 0px auto;
@@ -119,4 +123,3 @@ body{
     display: block;
 
 }
-

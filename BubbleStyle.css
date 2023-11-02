@@ -101,11 +101,22 @@ body{
     cursor: pointer;
 }
 
+#gOverHighScore{
+    color: rgba(51, 255, 0, 0.847);
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px auto;
+    flex-direction: column;
+    
+}
+
 #gOver{
     color: rgba(255, 0, 0, 0.847);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 0px auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+
 }
+

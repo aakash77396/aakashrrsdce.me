@@ -20,7 +20,7 @@ function runTimer() {
         }
         else {
             clearInterval(timer);
-            document.querySelector("#downPart").innerHTML = "<h1 id = 'gOver'> Game Over.... </h1>"
+            document.querySelector("#downPart").innerHTML = `<h1 id = 'gOverHighScore'> highest Score : ${score}</h1> <h1 id = 'gOver'> Game Over.... </h1>`
         }
     }, "1000");
 

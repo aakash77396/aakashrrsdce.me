@@ -10,7 +10,7 @@ function makeBubble() {
     document.querySelector("#downPart").innerHTML = newBubble;
 }
 
-let sec = 10;
+let sec = 60;
 function runTimer() {
     let timer = setInterval(function () {
         if (sec > 0) {

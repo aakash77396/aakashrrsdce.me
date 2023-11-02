@@ -4,14 +4,13 @@ function makeBubble() {
 
     for (let i = 1; i <= 170; i++) {
         let randomNum = Math.floor(Math.random() * 10);
-        newBubble += `<div id="bubble" onclick="hitNo(1)">${randomNum}</div>`;
-        console.log("hello");
+        newBubble += `<div id="bubble">${randomNum}</div>`;
     }
 
     document.querySelector("#downPart").innerHTML = newBubble;
 }
 
-let sec = 60;
+let sec = 10;
 function runTimer() {
     let timer = setInterval(function () {
         if (sec > 0) {
@@ -20,7 +19,7 @@ function runTimer() {
         }
         else {
             clearInterval(timer);
-            document.querySelector("#downPart").innerHTML = `<h1 id = 'gOverHighScore'> highest Score :<span id ='gOverHighScoreColor'>${score} </span></h1> <h1 id = 'gOver'> Game Over.... </h1>`
+            document.querySelector("#downPart").innerHTML = `<h1 id = 'gOverHighScore'> highest Score : <span id ='gOverHighScoreColor'>${score} </span></h1> <h1 id = 'gOver'> Game Over.... </h1>`
         }
     }, "1000");
 

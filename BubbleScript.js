@@ -5,7 +5,7 @@ setTimeout(function () {
 function makeBubble() {
     let newBubble = "";
 
-    for (let i = 1; i <= 170; i++) {
+    for (let i = 1; i <= 171; i++) {
         let randomNum = Math.floor(Math.random() * 10);
         newBubble += `<div id="bubble">${randomNum}</div>`;
     }

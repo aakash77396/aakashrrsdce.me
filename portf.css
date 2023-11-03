@@ -71,10 +71,11 @@
     text-decoration: none;
     color: white;
     padding:10px 10px;
+    font-size: 25px;
 }
 
 .name div {
-    margin-left: 170px;
+    margin-left: 111px;
     margin-top: 15px;
 }
 
@@ -141,7 +142,9 @@
 
 .section3 {
     display: flex;
-    margin-left: 290px;
+    margin: 20px auto;
+    text-align: center;
+    justify-content: center;
 }
 
 .hireme {

@@ -1,3 +1,6 @@
+setTimeout(function () {
+    alert("instructions:- Hit number Click on bubble.")
+}, 1000);
 
 function makeBubble() {
     let newBubble = "";

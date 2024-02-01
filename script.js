@@ -8,6 +8,12 @@ form.addEventListener('submit', e => {
         .then(() => { window.location.reload(); })
         .catch(error => console.error('Error!', error.message))
 })
+// inspect stop
+document.addEventListener
+("contextmenu",function(e)
+ {
+     e.preventDefault()
+ },false)
  // .........................................................................
 // function nav() {
 //     document.getElementById("nav_container1").style.display = "block"
